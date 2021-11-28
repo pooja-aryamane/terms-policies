@@ -69,7 +69,7 @@ const IndexPage = () => {
           <div className="top-text">
             <img src={"/images/logo2.png"} alt />
             <h1>
-              India’s Largest Warehousing
+              India’s Largest Warehousing 
               <br />
               &amp; Fulfilment Network
             </h1>
@@ -201,7 +201,7 @@ const IndexPage = () => {
       </section>
       <section className="warehouse">
         <div className="container">
-          <h2>On-Demand Warehousing</h2>
+          <h2>Flexible Warehousing</h2>
           <span>
             Expand your business, reduce cost &amp; optimize your logistics
             operation.
@@ -226,7 +226,7 @@ const IndexPage = () => {
               <div className="cart-text">
                 <p className="title1">No Minimum Duration</p>
                 <p>
-                  On demand storage. Pay only for tenure as utilised for storage
+                  Flexible storage. Pay only for tenure as utilised for storage
                 </p>
               </div>
             </div>
@@ -265,7 +265,7 @@ const IndexPage = () => {
                   <div className="cart-text">
                     <p className="title1">No Minimum Duration</p>
                     <p>
-                      On demand storage. Pay only for tenure as utilised for
+                      Flexible storage. Pay only for tenure as utilised for
                       storage
                     </p>
                   </div>
@@ -398,7 +398,7 @@ const IndexPage = () => {
               target="_blank"
               className="btn find-btn"
             >
-              Find On-Demand Warehousing
+              Find Flexible Warehousing
             </a>
           </div>
         </div>
@@ -415,7 +415,7 @@ const IndexPage = () => {
             <h3 className="item-title">Largest Network</h3>
             <p className="item-subtitle">
               {" "}
-              India’s largest on-demand warehousing &amp; fulfilment{" "}
+              India’s largest flexible warehousing &amp; fulfilment{" "}
               <br className="d-big" />
               network with presence in 140 cities and 25 states
             </p>
