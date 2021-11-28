@@ -75,7 +75,7 @@ const IndexPage = () => {
             </h1>
             <p>
               A flexible, scalable &amp; affordable logistic solution for
-              businesses of all sizes
+              businesses of all size
             </p>
           </div>
         </div>
