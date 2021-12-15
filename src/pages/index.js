@@ -8,7 +8,6 @@ const pageStyles = {
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 };
 
-
 // markup
 const IndexPage = () => {
   return (
@@ -26,7 +25,7 @@ const IndexPage = () => {
             <div className="container">
               <div className="logo">
                 {" "}
-                <a href="#">
+                <a href="https://3pl.godamwale.com/" target="_blank">
                   <img src={"/images/logo.png"} alt="logo" />
                 </a>{" "}
               </div>
@@ -67,9 +66,11 @@ const IndexPage = () => {
       <section className="top-banner">
         <div className="container">
           <div className="top-text">
-            <img src={"/images/logo2.png"} alt />
+            <a href="https://3pl.godamwale.com/" target="_blank">
+              <img src={"/images/logo2.png"} alt />
+            </a>
             <h1>
-              India’s Largest Warehousing 
+              India’s Largest Warehousing
               <br />
               &amp; Fulfilment Network
             </h1>
@@ -190,8 +191,11 @@ const IndexPage = () => {
                     type="submit"
                     id
                     className="btn get-btn"
+
                   >
-                    <span className="sub">Get Quote</span>
+                    <span className="sub">
+                    Get Quote
+                    </span>
                   </button>
                 </form>
               </div>
