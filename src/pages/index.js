@@ -138,7 +138,7 @@ const IndexPage = () => {
                     type="text"
                     className="hidden"
                     name="returnURL"
-                    value="http&#x3a;&#x2f;&#x2f;godamwale.com&#x2f;"
+                    value='https&#x3a;&#x2f;&#x2f;marketing.godamwale.com&#x2f;thank_you'
                   />
                   <div className="cont-row">
                     <input
