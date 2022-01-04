@@ -136,7 +136,7 @@ const thankYouPage = () => {
                 <img src={"/images/call.png"} alt />
               </a>
               <a href="tel:+918291540681">+91 8291540681</a> |
-              <a href="tel:+919867731208">+91 9867731208</a>
+              <a href="tel:+919959361943">+91 9959361943</a>
             </p>
           </div>
         </div>
