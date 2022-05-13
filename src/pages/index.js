@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 // styles
 const pageStyles = {
-  color: "#232129",
+  color: "#232128",
   padding: 96,
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 };
@@ -29,17 +29,7 @@ const IndexPage = () => {
                   <img src={"/images/logo.png"} alt="logo" />
                 </a>{" "}
               </div>
-              <div className="right-btn">
-                <a
-                  href={"/pdf/godamwale_company-profile.pdf"}
-                  target="_blank"
-                  className="btn down-btn"
-                >
-                  Download Brochure
-                </a>{" "}
-              </div>
             </div>
-            <div className="clear" />
           </nav>
           <div className="responsive-bar">
             <div className="container">
@@ -49,467 +39,141 @@ const IndexPage = () => {
                   <img src={"/images/logo.png"} alt="logo" />
                 </a>{" "}
               </div>
-              <div className="right-btn">
-                <a
-                  href="pdf/godamwale_company-profile.pdf"
-                  target="_blank"
-                  className="btn down-btn"
-                >
-                  Download Brochure
-                </a>{" "}
-              </div>
             </div>
-            <div className="clear" />
           </div>
         </header>
       </div>
       <section className="top-banner">
         <div className="container">
           <div className="top-text">
-            <a href="https://3pl.godamwale.com/" target="_blank">
-              <img src={"/images/logo2.png"} alt />
-            </a>
             <h1>
-              India’s Largest Warehousing
-              <br />
-              &amp; Fulfilment Network
+              Terms of Service 
             </h1>
-            <p>
-              A flexible, scalable &amp; affordable logistic solution for
-              businesses of all size
-            </p>
           </div>
         </div>
       </section>
-      <section className="ware-sect">
+      <section className="termsofservice">
         <div className="container">
-          <div className="ware-row">
-            <div className="flex-sect">
-              <div className="lt-sect">
-                <h2>
-                  Reduce warehousing &amp; distribution cost with on-demand
-                  scalability &amp; tech enabled supply chain platform.
-                </h2>
-                <ul className="detail-list">
-                  <li>Warehouse</li>
-                  <li>B2B &amp; Ecommerce Fulfilment</li>
-                  <li>Retail &amp; Distribution</li>
-                </ul>
-                <a
-                  href={"/pdf/godamwale_company-profile.pdf"}
-                  target="_blank"
-                  className="btn ware-btn"
-                >
-                  Download Brochure
-                </a>
-              </div>
-              <div className="rt-sect">
-                <p>
-                  Choose your business type to get
-                  <br />
-                  the most efficient quote.
-                </p>
-                <form
-                  action="https://crm.zoho.com/crm/WebToLeadForm"
-                  name="WebToLeads2855312000025657001"
-                  method="POST"
-                  accept-charset="UTF-8"
-                >
-                  <input
-                    type="text"
-                    className="hidden"
-                    name="xnQsjsdp"
-                    value="86c458fd54bc9ff59099fd96f3d0d80d76f53e5ab0413a76d788866f59950bc9"
-                  />
-                  <input type="hidden" name="zc_gad" id="zc_gad" value="" />
-                  <input
-                    type="text"
-                    className="hidden"
-                    name="xmIwtLD"
-                    value="72a7b4244d8d53cdeed624335c5d48b7c3b72af51e52d378190efc43e5668d38"
-                  />
-                  <input
-                    type="text"
-                    className="hidden"
-                    name="actionType"
-                    value="TGVhZHM="
-                  />
-                  <input
-                    type="text"
-                    className="hidden"
-                    name="returnURL"
-                    value='https&#x3a;&#x2f;&#x2f;marketing.godamwale.com&#x2f;thank_you'
-                  />
-                  <div className="cont-row">
-                    <input
-                      id="Last_Name"
-                      type="text"
-                      placeholder="Name *"
-                      name="Last Name"
-                      className="flex-box"
-                      required
-                    />
-                  </div>
-                  <div className="cont-row">
-                    <input
-                      id="Email"
-                      type="email"
-                      placeholder="Email Address *"
-                      name="Email"
-                      className="flex-box"
-                      required
-                    />
-                  </div>
-                  <div className="cont-row">
-                    <div className="lt0">
-                      <input
-                        id="Phone"
-                        type="text"
-                        placeholder="Phone Number *"
-                        name="Phone"
-                        className="flex-box"
-                        required
-                      />
-                    </div>
-                    <div className="lt0">
-                      <select
-                        name="LEADCF8"
-                        id="LEADCF8"
-                        className="extension"
-                        required
-                      >
-                        <option value>Business Type *</option>
-                        <option value="E-Commerce">E-commerce</option>
-                        <option value="Enterprise">Enterprise</option>
-                        <option value="B2B">B2B</option>
-                      </select>
-                    </div>
-                    <div className="clear" />
-                  </div>
-                  <button
-                    name="submit"
-                    type="submit"
-                    id
-                    className="btn get-btn"
-
-                  >
-                    <span className="sub">
-                    Get Quote
-                    </span>
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="warehouse">
-        <div className="container">
-          <h2>Flexible Warehousing</h2>
-          <span>
-            Expand your business, reduce cost &amp; optimize your logistics
-            operation.
-          </span>
-          <div className="cart-row dsk">
-            <div className="cart">
-              <div className="cart-img">
-                <img src={"/images/warehouse1.png"} />
-              </div>
-              <div className="cart-text">
-                <p className="title1">Flexible Space</p>
-                <p>
-                  No Minimum commitment on space, add or Reduce Space as per
-                  business demands
-                </p>
-              </div>
-            </div>
-            <div className="cart">
-              <div className="cart-img">
-                <img src={"/images/warehouse2.png"} alt />
-              </div>
-              <div className="cart-text">
-                <p className="title1">No Minimum Duration</p>
-                <p>
-                  Flexible storage. Pay only for tenure as utilised for storage
-                </p>
-              </div>
-            </div>
-            <div className="cart">
-              <div className="cart-img">
-                <img src={"/images/warehouse3.png"} alt />
-              </div>
-              <div className="cart-text">
-                <p className="title1">Tech Enabled</p>
-                <p>One software to view &amp; control entire supply chain</p>
-              </div>
-            </div>
-            <div className="clear" />
-          </div>
-          <div className="cart-row mb">
-            <div className="owl-carousel owl-theme" id="top-slider">
-              <div className="item">
-                <div className="cart">
-                  <div className="cart-img">
-                    <img src={"/images/warehouse1.png"} alt />
-                  </div>
-                  <div className="cart-text">
-                    <p className="title1">Flexible Space</p>
-                    <p>
-                      No Minimum commitment on space, add or Reduce Space as per
-                      business demands
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="item">
-                <div className="cart">
-                  <div className="cart-img">
-                    <img src={"/images/warehouse2.png"} alt />
-                  </div>
-                  <div className="cart-text">
-                    <p className="title1">No Minimum Duration</p>
-                    <p>
-                      Flexible storage. Pay only for tenure as utilised for
-                      storage
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="item">
-                <div className="cart">
-                  <div className="cart-img">
-                    <img src={"/images/warehouse3.png"} alt />
-                  </div>
-                  <div className="cart-text">
-                    <p className="title1">Tech Enabled</p>
-                    <p>
-                      One software to view &amp; control entire supply chain
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="difference">
-        <div className="container">
-          <div className="our-row">
-            <div className="our-sect">
-              <h2>Challenges</h2>
-              <ul className="detail-list2">
-                <li>Paying for Unutilized Space</li>
-                <li>
-                  Scalability At Different City -Huge Capex, Time
-                  <br /> Commitment and Business Risk.
-                </li>
-                <li>Higher Delivery Time</li>
-                <li>Inventory tracking -Low Visibility</li>
-                <li>Multiple Service provider and SLA’s</li>
-              </ul>
-            </div>
-            <div className="our-sect">
-              <h2>Benefits</h2>
-              <ul className="detail-list3">
-                <li>Pay per use model</li>
-                <li>
-                  Scale Up-Scale Down based on business
-                  <br /> requirement
-                </li>
-                <li>Distributed Inventory Less Delivery Time</li>
-                <li>Real Time inventory tracking.</li>
-                <li>Single service provider and 1 SLA for all location.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="benefits">
-        <div className="container">
-          <h2>The Godamwale benefits to your business</h2>
-          <div className="benefits-row">
-            <div className="col">
-              <div className="journey-step step-1">
-                <img src={"/images/icon1.png"} alt="image" />
-                <h3>
-                  Retailers
-                  <br />
-                  &amp; Enterprises{" "}
-                </h3>
-              </div>
-              <ul className="detail-list4">
-                <li>
-                  Develop an agile distribution network
-                  <br />
-                  with flexible space &amp; freight
-                </li>
-                <li>
-                  Manage your inventory overflow, reduce distribution cost
-                </li>
-                <li>
-                  A-grade facilities with all compliances, integrated <br />
-                  tech to manage vendors &amp; distributors
-                </li>
-              </ul>
-            </div>
-            <div className="col">
-              <div className="journey-step step-1">
-                <img src={"/images/icon2.png"} alt="image" />
-                <h3>
-                  Small &amp; Medium size
-                  <br />
-                  Companies
-                </h3>
-              </div>
-              <ul className="detail-list4">
-                <li>
-                  Access to world class infrastructure at lowest price; no
-                  minimum space constraint
-                </li>
-                <li>
-                  Reduce warehousing cost. Use space only when required &amp; as
-                  much needed
-                </li>
-                <li>Move your business to new cities without any investment</li>
-              </ul>
-            </div>
-            <div className="col">
-              <div className="journey-step step-1">
-                <img src={"/images/icon3.png"} alt="image" />
-                <h3>
-                  E-commerce
-                  <br />
-                  Players
-                </h3>
-              </div>
-              <ul className="detail-list4">
-                <li>
-                  Network of smart &amp; scalable fulfilment centres integrated
-                  with marketplaces &amp; last mile
-                </li>
-                <li>Pan-India delivery within 1-2 days</li>
-                <li>
-                  Own branding on packaging, lower fulfilment cost, lower TAT
-                  &amp; lesser returns.
-                </li>
-              </ul>
-            </div>
-            <div className="clear" />
-          </div>
-          <div className="find-sect">
-            <a
-              href="https://3pl.godamwale.com/"
-              target="_blank"
-              className="btn find-btn"
-            >
-              Find Flexible Warehousing
-            </a>
-          </div>
-        </div>
-      </section>
-      <section className="advantage-section">
-        <h2 className="title">The Godamwale Advantage</h2>
-        <p className="subtitle">
-          Warehousing &amp; Fulfilment from small businesses to enterprises 100
-          to 10,00,000 sq. ft.
-        </p>
-        <div className="features-flex container">
-          <div className="item">
-            <img className="item-img" src={"/images/network.png"} alt />
-            <h3 className="item-title">Largest Network</h3>
-            <p className="item-subtitle">
-              {" "}
-              India’s largest flexible warehousing &amp; fulfilment{" "}
-              <br className="d-big" />
-              network with presence in 140 cities and 25 states
-            </p>
-          </div>
-          <div className="item">
-            <img className="item-img" src={"/images/circuit.png"} alt />
-            <h3 className="item-title">INCIFLO Technology</h3>
-            <p className="item-subtitle">
-              Centralized tech platform to track and manage
-              <br className="d-big" /> end to end supply chain
-            </p>
-          </div>
-          <div className="item">
-            <img className="item-img" src={"/images/user.png"} alt />
-            <h3 className="item-title">Operational Expertise</h3>
-            <p className="item-subtitle">
-              A team of logistics experts to optimise your supply
-              <br className="d-big" />
-              chain and help you grow
-            </p>
-          </div>
-        </div>
-        <a
-          href="https://3pl.godamwale.com/"
-          target="_blank"
-          className="callback-btn"
-        >
-          Request a call back
-        </a>
-      </section>
-      <section className="move-store">
-        <div className="container">
-          <div className="features-flex">
-            <div className="item">
-              <img className="item-img" src={"/images/truck.png"} alt />
-              <h2 className="title">
-                Store <br />
-                and move
-              </h2>
-              <p className="subtitle">as you like</p>
-              <a
-                href="https://3pl.godamwale.com/"
-                target="_blank"
-                className="callback-btn"
-              >
-                Request a call back
-              </a>
-            </div>
-            <div className="item back-white-round">
-              <h2 className="b-title">B2B</h2>
-              <ul className="details">
-                <li>Short/Long term Shared space</li>
-                <li>Inventory Management</li>
-                <li>Bulk Break</li>
-                <li>Wholesale Carton Pick</li>
-                <li>Labelling &amp; Barcoding</li>
-                <li>Packaging &amp; Repackaging</li>
-                <li>Container Handling</li>
-                <li>Transportation &amp; Distribution Services</li>
-                <li>
-                  Technology (Sales/purchase order, inventory, and transport
-                  management tools)
-                </li>
-                <li>Dedicated Account Managers</li>
-              </ul>
-            </div>
-            <div className="item back-white-round">
-              <h2 className="b-title">B2C</h2>
-              <ul className="details">
-                <li>Flexible Fulfilment Centres</li>
-                <li>Order Management</li>
-                <li>Pick, Pack and Ship</li>
-                <li>Labelling &amp; Barcoding</li>
-                <li>Kitting Projects</li>
-                <li>Last Mile delivery</li>
-                <li>Courier services &amp; Reverse Logistics</li>
-                <li>
-                  Integrations with ecommerce platforms and courier partners
-                </li>
-                <li>Dedicated Account Managers</li>
-              </ul>
-            </div>
-          </div>
+          <br />
+          <br />
+          <p>
+            These Terms of Service describe the terms under which Godamwale Private Limited provide a subscriber access to and use of Our Service(s). By accessing and/or using any Our Service(s), a) You agree to be bound by these Terms and acknowledge having read the privacy policy located at (“Privacy Policy”). b) You warrant to us that You are of 18 years or above and are competent to enter into this agreement, if You are an individual c) That, in the event You are entering into these Terms on behalf of any entity/company or its group, You possess the requisite authority to bind such entities, company or its groups to these Terms. If You do not agree to these Terms, You should immediately cease using our Service(s). Please read these Terms carefully as these Terms form a binding agreement between Godamwale and You that governs Your use of: (i) the websites owned and operated by Us including www.godamwale.com(“Website”); (ii) the Service(s) offered thereon; (iii) all features, platforms, widgets, tools, applications, data, software, algorithms application program interface (APIs) in connection with the Website, the Service(s) and any other products provided by Godamwale; and (iv) any other modes of usage of the Service(s) or other products including through electronic devices (mobiles or tablets) / storage devices / transmitting devices. Your access and use the Website over the internet, including the Service(s) shall signify acceptance of these Terms. If You do not accept and agree to any of these Terms set out herein, You shall not be entitled or authorized to, use / access / browse the Website, or avail the Service thereon.
+          </p>
+          <br />
+          <br />
+          <h2>1. Service(s)</h2>
+          <br />
+          <p>
+          Godamwale provides: (i) information security and compliance services in the form of a productized and automated consultant; (ii) audit services in relation to system level controls and organization level controls through the auditors registered on the Website (“Service(s)“); and (iii) such other products or services as Godamwale deems fit. Godamwale grants You a limited, non-exclusive, non-transferable and revocable license, without the right to sublicense, to access and use the Website and the Service(s) solely for Your internal business purposes in accordance with these Terms. It being clarified, the auditors who register on the Website to provide the Service(s) are also deemed to be Users of the Website. Such auditors are not and shall not be deemed to be in any manner, the employees, agents, representatives, affiliates or partners of Godamwale. Such auditors always act independently and Godamwale is not responsible and has no control over the manner in which they provide their respective Service(s). Godamwale only facilitates an online platform for automated security, risk and compliance assessment.
+          </p>
+          <br />
+          <br />
+          <h2>2. Charges and Payment</h2>
+          <br />
+          <p>
+          Unless otherwise specified in a purchase order, all charges associated with Your use of the Service(s) will be as per the pricing plan (“Subscription Charges”) chosen by You, which is subject to change from time to time. In case of advance payments, the Service(s) will not be made available to You until such advance payments have been made by You to Godamwale. Godamwale may also provide certain Service(s) at free of charge for a limited time, or as a bundle package or any discounts or promotional offers, as it may deem fit. However, Godamwale reserves the right to change the price/ fees or charge such Service(s) that are available for free of charge. Unless otherwise specified in the Purchase Order, Your payment is due within thirty (30) days of our invoice date. Godamwale will notify You in the event that Godamwale does not receive payment towards Subscription Charges within the due date, failing which in addition to the right to other remedies available under law, (i) Godamwale may suspend Your access to and use of the Service(s) until Godamwale receives Your payment towards the Subscription Charges as specified; and/or (ii) terminate Your Account; and/or (iii) charge an interest for late payment @ 1.5% per month on the outstanding balance of the Subscription Charges payable. Unless otherwise stated, the Subscription Charges do not include any taxes, levies, duties or similar governmental assessments, including value-added, sales, use or withholding taxes by any local, state, provincial or foreign jurisdiction (collectively “Taxes”).
+          </p>
+          <br />
+          <br />
+          <h2>3. User Account</h2>
+          <br />
+          <p>
+          In order to use certain features of the Website, You must register on the Website by creating an online account (” Account“). In the event that You want to register on the Website and wish to create an Account, You must have the legal capacity to form a binding contract. For a corporate entity, an authorised personnel of such corporate entity (” Account Administrator“), will be required to act as the point of contact for Us, manage Your Account and will also be required to specify and configure the Service(s) required by You. You shall solely be responsible for: (i) the appointment of a suitable Account Administrator for managing Your Account and the Service(s) availed by You; and (ii) ensuring that the Account Administrator acts in compliance with this Agreement, at all times. Godamwale shall not be responsible, in any manner, for the administration of Your Account by the Account Administrator and internal management of the Service(s) provided to You. Each designated user within the Service(s), including an Account Administrator, agents and other designated users (“User”) shall be identified using unique login information such as usernames and passwords (“User Login”) and such User Login shall be used only by one individual. You must not disclose the User Login to any third party. We shall have the right to disable any user identification code or password, whether chosen by You or allocated by Us, at any time, if in Our reasonable opinion, You have failed to comply with any of the provisions of these Terms. We will not be responsible for any activities, including any attempted or actual access or loss of data occurring in Your Account as a result of Your non-compliance of obligations under this Clause 3. Further, You also agree that, at the time of creating Your Account and at any other time, You shall provide true, correct, complete and accurate information and ensure that all such information is up-to-date and accurate at all times. If You provide any information that is untrue, inaccurate, outdated, or incomplete, or if Godamwale has reasonable grounds to suspect that such information is untrue, inaccurate, outdated, or incomplete, Godamwale may suspend / terminate Your Account and refuse current or future provision of any or all Service(s).
+          </p>
+          <br />
+          <br />
+          <h2>4. Your Roles and Responsibilities</h2>
+          <br />
+          <p>
+          Your use of the Website and the Service(s) is solely for internal business purposes During Your use of the Website and Service(s), You hereby agree and acknowledge that You shall not:
+          </p>
+          <li>Adapt, reproduce, store, distribute, transmit, print, display, perform, publish or create derivative works from any part of the Website and / or the Service(s), in any manner whatsoever; </li>
+          <li>Commercialize or sell / re-sell in any manner, any information, contents, features, platforms, widgets, tools, applications, data, software, algorithms application program interface (APIs), so on and so forth, in connection with the Website, the Service(s) and any other products and Service(s) offered by Godamwale </li>
+          <li>Provide misleading or false personal details, impersonate any person or entity, or indulge in any other fraudulent activity </li>
+          <li>Access or use the Website and / or Service(s) through the Account of other Users;</li>
+          <li>Defame, harass, abuse or threaten other users of the Website and / or Service(s), any other persons involved in the provision of Services</li>
+          <li>Use the Service(s) for any illegal purposes or for transmitting any material that is unlawful, vulgar, pornographic, obscene, or is otherwise objectionable, offends religious sentiments, promotes racism, contains viruses or malicious code, or that which infringes or may infringe intellectual property or other rights of any third party</li>
+          <li>Use the Service(s) for transmitting any virus, junk mail, spam, chain letters, phishing or unsolicited mass distribution of email</li>
+          <li>Reverse engineer, decompile, disassemble, or otherwise attempt to discover the source code of the Website, the Services or any part thereof</li>
+          <li>Use the Service(s) in a manner that may damage, disable, overburden, impair or harm the operation of the Website and / or the Service(s) or servers / networks of Godamwale or otherwise interfere with any other User’s or person’s enjoyment of the Website and / or the Service(s)</li>
+          <li>Ater or modify any part of the Website and / or the Service(s); and violate any other Terms specified herein, in any form or manner</li>
+          <br />
+          <br />
+          <h2>5. Termination</h2>
+          <br />
+          <p>
+          <h3>Termination by Godamwale</h3>
+          <br />
+          <br />
+          In the event that You breach any of these Terms set forth herein, Godamwale reserves the right to suspend and / or terminate Your access to or use of the Website and the Service(s) with or without notice to You. Any suspected illegal, fraudulent or abusive activity may be grounds for terminating Your Account and access to the Website and the Service(s). Upon suspension or termination, Your right to access, procure or use the Service(s) or use / access / browse the Website shall immediately cease and we reserve the right to remove or delete all electronic data, text, messages, or other materials, including without limitation personal data of Users and end users, submitted to the Service(s) by You through Your Account in connection with Your use of the Service(s) (“Service Data”) that is available with Godamwale, including but not limited to Your login and Account information.
+          <br />
+          Further, notwithstanding any such termination, suspension, or cancellation, Godamwale may, in its sole discretion and in accordance with its Privacy Policy, retain such information collected from You through the Website and / or the Service(s) provided therein for as long as necessary, depending on the type of information, purposes, means and modes of usage of such information and according to any other rules and / or applicable laws.
+          <br />
+          <br />
+          <h3>Termination by You</h3>
+          <br />
+          <br />
+          In the event that You wish to discontinue using / availing the Service(s), You may do so by giving to Godamwale, a prior written notice of at least 30 (thirty) days.
+          <br />
+          <br />
+          <h3>Consequence of Termination</h3>
+          <br />
+          <br />
+          Any suspension, termination, or cancellation will result in cessation of the Service(s) by Godamwale to You, along with suspension / termination of Your Account. Such suspension, termination, or cancellation will not affect Your obligations to Godamwale under these Terms which by their nature are intended to survive such suspension, termination, or cancellation. Notwithstanding any such suspension or termination, the provisions of Clause 6 (Confidentiality, Data Privacy and Security), 7 (Intellectual Property and Ownership), 9 (Disclaimer of Warranties), 10 (Limitation of Liability), 11 (Indemnification), 12 (Governing Law and Jurisdiction) and 16 (No Waiver) shall survive and remain in full force and effect.
+          <br />
+          <br />
+          <h2>6. Confidentiality, Data Privacy and Security</h2>
+          <br />
+          “Confidential Information” shall mean and include all information relating to Godamwale or You or any User, disclosed either orally or in any recorded medium, during the provision of Service(s) or otherwise, including but not limited to its: (i) products, Service(s), pricing terms, sales and marketing and promotion plans, business plans, models, prototypes, intellectual property rights, business affairs, operations, strategies, inventions, research, apparatus, methodologies, technologies, algorithms, programs, software, application, source code, processes, employees, contractors, subcontractors, product / service proposals, methods of operations, techniques, schematics, designs and contracts; (ii) officers, directors, affiliates, parent company, subsidiaries, sister concerns, group companies; or (iii) financial information; (iv) information or data relating to any of the foregoing along with any notes, analysis, compilations, studies or other material or documents prepared thereof or being in the possession of Godamwale or You which contain, reflect or are based on the Confidential Information, or any other information which by its nature may be deemed to be confidential. Confidential Information shall include all non-public information furnished, disclosed or transmitted regardless of form or manner in which it may be furnished, disclosed or transmitted.
+          <br />
+          <br />
+          Both Godamwale and You agree, acknowledge, undertake and covenant that they shall maintain and uphold the confidentiality of the Confidential Information, at all times. Godamwale and You shall keep the Confidential Information strictly confidential, and shall not, directly or indirectly, divulge, use, make available, sell, distribute, disclose, share, transfer, publish or otherwise communicate or make accessible to any third party such Confidential Information in any manner whatsoever, except to its employees, agents, representatives or other personnel on a “need to know” basis.
+          <br />
+          <br />
+          Nothing contained herein shall be construed as granting or implying any transfer of rights, title or interests to Godamwale in Your Confidential Information. Further, nothing contained herein shall be construed as granting or implying any transfer of rights, title or interests to You in Godamwale’s Confidential Information or any other Intellectual Property protecting or relating to such Confidential Information.
+          <br />
+          <br />
+          You acknowledge that We shall process personal data forming part of Service Data only to provide, maintain and improve the Service(s), or prevent or address any technical problems, or at Your request in connection with support requests and in accordance with these Terms, Our Privacy Policy. We shall not process Service Data for any purposes other than what is mentioned in these Terms.
+          <br />
+          <br />
+          You acknowledge and agree that We may access or disclose information about You, Your Account, Users, including Service Data in order to (a) comply with the law or respond to lawful requests or legal process; or (b) prevent any infringement of group companies’ or Your proprietary rights. Further, at Our sole discretion, any suspected fraudulent, abusive, or illegal activity by You may be referred to law enforcement authorities.
+          <br />
+          <br />
+          <h2>7. Intellectual Property and Ownership</h2>
+          <br />
+          Intellectual property means all of the following and all legal rights or interest in, under or in respect of the following arising under Indian and international laws, whether or not filed, perfected, registered or recorded and whether now or later existing, filed, issued or acquired by Godamwale or owned by Godamwale: (i) all copyrights, copyrightable works and all other corresponding rights; (ii) all patents, trademarks, service marks, logos, designs, etc.; (iii) the Website, the Service(s) or any other products or Service(s) made available to the You by Godamwale; (iv) know-how, including technical know-how, technology, software, software development process, algorithm, source code, APIs and other such technologies of the Website, the Service(s) or other products or Service(s); (v) any other technology and processes, technical data, trade secrets, confidential business information, pricing and cost information, business and marketing plans, advertising and promotional materials, vendors, third party supplier lists and information, records, and other proprietary documentation and information; (vi) all databases, data collections and any analytical data / information derived from the Website or Service(s); (vii) all other proprietary rights; and (viii) all copies and tangible embodiments of any of the foregoing (in whatever form or medium) (” Intellectual Property“).
+          <br />
+          <br />
+          You hereby agree and acknowledge that Your use of the Intellectual Property shall in no way mean or be construed as an assignment by Godamwale to You, of any ownership, rights or interests of Godamwale in such Intellectual Property. All Intellectual Property and other related items, products, materials or Service(s) provided or made available to You by Godamwale or its, employees, representatives, affiliates or suppliers is and remains, at all times, the exclusive property of Godamwale.
+          <br />
+          <br />
+          You hereby agree and acknowledge that infringement of any Intellectual Property for any purpose, whether commercial or otherwise, shall be a violation of Godamwale’s intellectual property rights and Godamwale reserves all its rights and remedies in law in relation to such violation. Further, any breach by You of any provision or obligation under this Clause will cause to Godamwale immediate, material and irreparable injury, and there is no adequate remedy at law for such breach. In such event, Godamwale shall be entitled to seek injunctive relief to enforce this Agreement in a court of competent jurisdiction. This provision shall not be a waiver of any other rights which Godamwale may have under this Agreement, including the right to receive monetary damages.
+          <br />
+          <br />
+          You own all rights, title, and interest in and to the Service Data. We shall have a right to process the Service Data solely for the purpose of providing, supporting, operating, maintaining and improving the Service(s).
+          <br />
+          <br />
+          We shall have the right and license to incorporate into the Service(s) or otherwise use any suggestions, enhancement requests, recommendations or other feedback We receive from You.
+          <br />
+          <br />
+          All rights not expressly provided to You herein are reserved.
+          <br />
+          <br />
+          <br />
+          <h2>8. Third Party Service(s)</h2>
+          <br />
+          You acknowledge and agree that Your use of any third-party application(s) or service(s) integrating with the Service(s) (“Third-Party Service(s)”) will be subject to these Terms and privacy policies of such third-party and that Godamwale shall not be liable for Your enablement, access or use of such Third-Party Service(s), including Your data processed by such third party. You should contact that third- party service provider for any issues arising in connection with use of such Third-Party Service(s).
+          <br />
+          <br />
+          <br />
+          </p>
         </div>
       </section>
       <div className="footer">
         <div className="container">
           <div className="copyright">
             <p className="title">
-              For all your warehousing needs, anywhere in India{" "}
+              For any queries regarding the Terms or our Service, contact us. {" "}
             </p>
             <p className="link">
               <a

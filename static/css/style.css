@@ -74,11 +74,11 @@ header .right-btn{ float: right;margin-top: 7px;}
 .btn{background: #fff;font-size: 12px; color:#0a0b55;font-weight: 700;}
 .down-btn{text-transform: uppercase;letter-spacing: 1px;}
 .responsive-bar { display: none;}
-.top-banner{ background: url("../images/banner.jpg")no-repeat top center;-webkit-background-size: cover;background-size: cover; padding:39px 0 83px; }
+.top-banner{ background: url("../images/banner.jpg")no-repeat top center;-webkit-background-size: cover;background-size: cover; padding:39px 0 43px; }
 .top-banner .top-text{text-align: center;width: 100%;}
 .top-banner .top-text img{ margin-bottom: 5px;}
-.top-banner .top-text h1{font-size: 24px; color: #fff;font-weight: 700;text-transform: uppercase;margin: 0 0 6px;}
-.top-banner .top-text p{ font-size: 14px;color:#fff;font-weight: 300;margin: 0;}
+.top-banner .top-text h1{font-size: 40px; color: #fff;font-weight: 700;margin: 0 0 6px;}
+.top-banner .top-text p{ font-size: 10px;color:#fff;font-weight: 300;margin: 0;}
 .wrapper nav.scroll {background-color: #fff;font-size: 14px;height: 80px;box-shadow: 0 0 9px 1px rgba(0, 0, 0, .2)}
 .ware-sect .ware-row{text-align: center; padding: 50px 23px 50px 60px; background: #f2f3f7; border-radius: 20px; margin-top: -30px;}
 .ware-sect .flex-sect{display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: space-between;align-items: flex-start;justify-items: flex-start;}
